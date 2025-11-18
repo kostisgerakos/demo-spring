@@ -60,3 +60,16 @@ Example query after you have created some students:
 SELECT * FROM STUDENT;
 
 Note: The H2 database is in-memory. All data is lost when you stop the application.
+
+Swagger UI
+----------
+
+This project includes Swagger UI for viewing and testing the REST API.
+
+After starting the application, open:
+
+http://localhost:8080/swagger-ui.html
+
+From there you can:
+- See all available endpoints (e.g. /students)
+- Try GET / POST / PUT / DELETE requests directly from the browser
